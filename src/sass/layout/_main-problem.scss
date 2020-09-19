@@ -21,6 +21,9 @@
     box-sizing: border-box;
   }
 }
+* {
+  box-sizing: border-box;
+}
 .main-problem-header {
   max-width: 860px;
   font-weight: 800;
@@ -47,10 +50,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+<<<<<<< Updated upstream
   padding-left: 115px;
   margin-bottom: 0px;
   margin-top: 0px;
   //padding-right: 110px;
+=======
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 110px;
+>>>>>>> Stashed changes
   & li {
     padding-top: 70px;
     padding-bottom: 62px;
